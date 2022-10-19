@@ -1,0 +1,32 @@
+- get nice plots of N R tR expR for MNIST and FashionMnost for nll and fail-rate
+	--> we are getting wired results for FashionMnost, and it seem that fail-rate is t´not working
+	--> They are running now check results once they are done 
+
+- get nice calibration results (possibly try bayesian ECE)  
+	--> - https://scikit-learn.org/stable/modules/calibration.html
+	     - https://github.com/uncertainty-toolbox/uncertainty-toolbox 
+
+- get 2d regression to work ie: get it to run on cluster (and maybe try it in a VCL setting)
+
+- get nice plots of ER anc WER for MNIST and FashionMnost for nll and fail-rate
+
+- make sure I did cvl correctly - have a look at the litereture to see how multiheaded cvl works 
+
+
+- try out inference where the posterior is known to be Gaussian ie: a lin reg set up
+
+	1)	do a 2d setup first so that the posterior can be plottet and you can check variance 
+		to see if it is about the same as the analytical posterior
+	2)	take it to higher dimensions to check if Radial out performs MFG 
+		eventhough the analytical posterior is in Q_MFG
+
+- try out (t + n) radial
+
+
+
+kig på confuisious matrix
+
+- kig på 2d lin model med kendt posterier
+
+
+

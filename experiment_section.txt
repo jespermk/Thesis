@@ -1,0 +1,36 @@
+D I - check plot 
+
+D I - lin gaus reg
+
+D I - full training run (possibly run again to get nice prediction results) - with gaus fac and non fac (possibly run again to get nice prediction results, but after i have results for everything else)
+
+R I - model results per std with non bayesian - re calculate accuracy as in full training run
+
+R -  stat table with gaus fac and non fac
+
+D - full training run with e and t
+
+R I - calibration 
+
+R I - curroption
+
+R i - curroption for one image
+
+D I - continual learning
+
+R - stat table for all
+
+
+
+prn50_e and prn50_t running
+ 
+when done:
+	run all criteria on rn50 and prn50
+when done, update:
+ 			1) tables 
+			2) calibration, 
+			3) full run for e and t,
+			 4) the two corruption plots  
+
+
+
